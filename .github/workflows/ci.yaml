@@ -14,3 +14,9 @@ jobs:
         uses: actionctl/setup-maven-cli@v1
       - name: test maven
         run: mvn -version
+      - name: setup maven
+        uses: actionctl/setup-maven-cli@v1
+        with: 
+          maven_version: 3.8.8
+      - name: test maven
+        run: mvn -version
