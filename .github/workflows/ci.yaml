@@ -8,7 +8,7 @@ jobs:
       - name: setup java
         uses: actions/setup-java@v4
         with:
-          distribution: 'eclipse-temurin'
+          distribution: 'temurin'
           java-version: '21'
       - name: setup maven
         uses: actionctl/setup-maven-cli@v1
